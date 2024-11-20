@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body{
+    max-width: 90%;
+    margin: 0 auto;
+} */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F6F9F9;
+    padding: 20px 150px;
+
+}
+.navbar-items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-item{
+    list-style: none;
+}
+.nav-items{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+/* banner part */
+.banner{
+    background-image: url('/image/Banner.png');
+    background-size: cover;
+    background-position: center;
+    max-height: 530px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.banner-text{
+    /* padding: 50px 80px; */
+    color: #FFF;
+}
+.banner-title{
+    font-size: 80px;
+    font-weight: 700;
+    margin: 20px ;
+}
+.banner-des{
+    font-size: 20px;
+    font-weight: 500;
+    margin:20px 0 65px 0;
+}
+.banner-btn{
+    border: 1px solid #15A4FA;
+    padding: 15px 25px;
+    border-radius: 5px;
+    margin-bottom: 100px;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFF;
+}
+.banner-btn a{
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #FFF;
+}
+.banner-icon{
+    margin-bottom: 50px;
+}
+.text{
+    background-color: #F6F9F9;
+    padding: 80px 0;
+}    
+.title{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.description{
+    font-size: 20px;
+    text-align: center;
+    margin: 0 220px;
+}
+/* second sec */
+.second-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 80px;
+    text-align: center;
+}
+.second-title{
+    font-size: 22px;
+    margin: 10px 10px;
+}
+.second-des{
+    font-size: 15px;
+}
+/* third section */
+.third-sec{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 6px;
+    column-gap: 4px;
+}
+.third-section{
+    background-color: #F6F9F9;
+}
+.third{
+    width: ;
+    margin: 60px 80px ;
+}
+.third-title{
+    font-size: 41px;
+    margin: 20px 0 10px 0;
+    padding-top: 40px;
+    text-align: center;
+}
+.third-des{
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 40px;
+}   
+footer{
+    background-image: url('/image/Stay.png');
+    background-size: cover;
+    background-position: center;
+}
+form{
+    text-align: center;
+} 
+.input-name, textarea{
+    width: 540px;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: #FFF;
+}
+.foot{
+    width: 540px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 auto;
+}
+.foot-check{
+    margin-top: 20px;
+}
+.footer-title{
+    font-size: 41px;
+    margin: 20px 0 10px 0;
+    padding-top: 40px;
+    text-align: center;
+    color: #FFF;
+}
+.footer-des{
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 40px;
+    color: #FFF;
+}
+.label{
+    font-size: 20px;
+    color: #FFF;
+}   
